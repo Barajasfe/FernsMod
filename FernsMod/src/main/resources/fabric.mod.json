@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fernsmod",
+  "version": "1.0.0",
+
+  "name": "Ferns Tools Mod",
+  "description": "Better than Tinkers",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.psdoffnation.FernsMod"
+    ]
+  },
+  "mixins": [
+	"fernsmod.mixins.json"
+    
+  ],
+
+  "depends": {
+    "fabricloader": "0.7.8+build.189",
+    "fabric": "0.5.5+build.311-1.16",
+    "minecraft": "1.16-alpha.20.12.a"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fernsmod:azurite_ore"
+        }
+
+      ],
+      	"conditions": [
+        	{
+          	"condition": "minecraft:survives_explosion"
+        	}
+      	]
+	},
+	{
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "fernsmod:rockcandy"
+        }
+
+      ],
+      	"conditions": [
+        	{
+          	"condition": "minecraft:survives_explosion"
+        	}
+      	]
+	}
+    
+  ]
+}

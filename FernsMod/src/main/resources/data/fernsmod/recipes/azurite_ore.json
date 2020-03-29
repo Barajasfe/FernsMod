@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "fernsmod:azurite_ore"
+    },
+    "result": "fernsmod:azurite_ingot",
+    "experience": 1.5,
+    "cookingtime": 200
+}

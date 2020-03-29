@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "## ",
+        "#/ ",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "fernsmod:azurite_ingot"
+        },
+        "/": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "fernsmod:azuriteaxe",
+        "count": 1
+    }
+}
